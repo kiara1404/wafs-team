@@ -98,8 +98,17 @@ article h2 {
 }
 
 #kiara {
-    background-color: ;
+    background: rgb(68,209,246);
+    background: linear-gradient(180deg,  rgba(174,158,249,1) 30%,rgba(68,209,246,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+#kiara div {
+    padding: 0;
+}
+#kiara div img {
+    padding: 0;
+    width: 100%;
 }
 
 /* --- End Individual articles --- */
