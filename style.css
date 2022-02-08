@@ -93,9 +93,25 @@ article h2 {
 }
 
 #fabian {
-    background-color: ;
-
+    background: hsla(79, 80%, 51%, 1);
+    background: linear-gradient(90deg, hsla(79, 80%, 51%, 1) 9%, hsla(150, 100%, 42%, 1) 99%);
+    background: -moz-linear-gradient(90deg, hsla(79, 80%, 51%, 1) 9%, hsla(150, 100%, 42%, 1) 99%);
+    background: -webkit-linear-gradient(90deg, hsla(79, 80%, 51%, 1) 9%, hsla(150, 100%, 42%, 1) 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A7E620", endColorstr="#00D46A", GradientType=1 );
 }
+
+#fabian img 
+{
+    border-radius: 75%;
+}
+
+#fabian h2
+{
+    font-family: "Copperplate", Times, serif;
+}
+
+
+
 
 #kiara {
     background-color: ;
