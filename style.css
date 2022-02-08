@@ -80,7 +80,21 @@ article h2 {
 
 /* --- Individual articles --- */
 #jorn {
-    background-color: ;
+    background-color: #0a0a0a;
+}
+
+#jorn h2 {
+    color: #fff;
+    background-color: #d83e42;
+    padding: .7em 1em;
+}
+
+#jorn div:last-of-type {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #roel {
